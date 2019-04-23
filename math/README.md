@@ -1,5 +1,5 @@
 # math
-수학 관련 알고리즘을 모아 놓았다.
+Collection of algorithms related to mathematics.
 
 ## todo
 - [x] 이항 계수
