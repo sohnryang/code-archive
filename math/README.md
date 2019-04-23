@@ -8,3 +8,4 @@
 - [ ] Floyd's cycle finding algorithm
 - [ ] Catalan Numbers
 - [ ] Fibonacci Numbers (In many forms)
+- [ ] Matrix
