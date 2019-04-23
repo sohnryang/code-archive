@@ -1,5 +1,5 @@
 # graph algorithms
-그래프 알고리즘을 모아 놓았다.
+Collection of graph algorithms.
 
 ## todo
 - [x] Dijkstra's Algorithm
