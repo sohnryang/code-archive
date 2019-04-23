@@ -5,4 +5,4 @@ Collection of code related to data structues.
 - [x] Union-Find
 - [ ] Segment Tree
 - [ ] Fenwick Tree
-- [ ] Treap
+- [ ] Self-balancing Tree (Treap or Splay Tree, maybe)
