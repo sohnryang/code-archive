@@ -1,5 +1,5 @@
 # data-structures
-자료구조 관련 코드를 저장해 놓는다.
+Collection of code related to data structues.
 
 ## todo
 - [x] Union-Find
