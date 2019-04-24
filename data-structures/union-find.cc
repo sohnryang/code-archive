@@ -1,5 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
+/*
+ * Union-find disjoint set
+ */
 
 typedef vector<int> vi;
 
