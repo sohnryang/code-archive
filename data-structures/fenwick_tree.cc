@@ -22,7 +22,7 @@ public:
         return ret;
     }
 
-    void add(int pos, int val) {
+    void update(int pos, int val) {
         ++pos;
         while (pos < tree.size()) {
             tree[pos] += val;
