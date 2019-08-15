@@ -1,5 +1,5 @@
 /*
- * Segment Tree
+ * Range Minimum Query
  */
 
 #include <algorithm>

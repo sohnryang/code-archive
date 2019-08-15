@@ -1,8 +1,8 @@
 """
-Segment Tree
+Range Minimum Query
 """
 
-class SegmentTree:
+class RMQ:
     def __init__(self, arr):
         self.length = len(arr)
         self.tree = [None] * (self.length * 4)
