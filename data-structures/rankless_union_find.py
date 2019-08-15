@@ -1,8 +1,8 @@
 """
-Union-find disjoint set
+"Rankless" Union-find disjoint set
 """
 
-class UnionFind:
+class RanklessUnionFind:
     def __init__(self, N):
         self.set_size = [1] * N
         self.num_sets = N
