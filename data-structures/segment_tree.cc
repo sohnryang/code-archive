@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class SegmentTree {
+class RMQ {
 private:
     vector<long long> tree;
     int len;
@@ -30,10 +30,6 @@ private:
                    query(lo, hi, node * 2 + 1, mid + 1, node_hi));
     }
 
-    long long query(int lo, int hi) {
-        return query(lo, hi, 1, 0, len - 1);
-    }
-
     long long update(int idx, int newval, int node, int node_lo, int node_hi) {
         if (idx < node_lo || node_hi < idx) return tree[node];
         if (node_lo == node_hi) return tree[node] = newval;
@@ -43,12 +39,16 @@ private:
             update(idx, newval, node * 2 + 1, mid + 1, node_hi)
         );
     }
+public:
+    long long query(int lo, int hi) {
+        return query(lo, hi, 1, 0, len - 1);
+    }
 
     long long update(int idx, int newval) {
         return update(idx, newval, 1, 0, len - 1);
     }
-public:
-    SegmentTree(vector<long long>& arr) {
+
+    RMQ(vector<long long>& arr) {
         len = arr.size();
         tree.resize(len * 4);
         init_tree(arr, 0, len - 1, 1);
